@@ -1,0 +1,8 @@
+#######################################################################################################
+# Format: Whatever follows a '#' is a comment.
+#         Uncommented lines must start w/ 32 characters of 0's and 1's (i.e., an instruction or data word)
+#######################################################################################################
+# instructions start here (first line is address 0)
+10101100001000100000000000000000 # 1:  SW   $2, 0($1)     # C[i] = $8
+11111100000000000000000000000000 # 2:  EOP		  # End of Program
+# Data goes below
