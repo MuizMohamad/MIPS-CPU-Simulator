@@ -5,7 +5,7 @@ a processor simulator without cache, and also a processor simulator with cache.
 
 # Compilation
 
-gcc -o mipssim mipssim.c memory_hierarchy.c -std=gnu99 -lm
+`gcc -o mipssim mipssim.c memory_hierarchy.c -std=gnu99 -lm`
 
 # Invoking the simulator
 
